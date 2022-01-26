@@ -8,4 +8,36 @@ press_jump = keyboard_check(vk_space);
 
 var move = press_right - press_left;
 hspd = move * walkspd;
+vspd = vspd + grav;
+
+
+if (place_meeting(x, y + 1, oMur)) && (press_jump)
+{
+	vspd = - 5;
+}
+
+//Collision horizontales
+
+if (place_meeting(x + hspd, y, oMur))
+{
+	while (!place_meeting(x + sign(hspd), y, oMur))
+	{
+		x = x + sign(hspd);
+	}
+	hspd = 0;	
+}
+
 x = x + hspd;
+
+//Collisions verticales
+
+if (place_meeting(x, y + vspd, oMur))
+{
+	while (!place_meeting(x, y + sign(vspd), oMur))
+	{
+		y = y + sign(vspd);
+	}
+	vspd = 0;	
+}
+
+y = y + vspd;
