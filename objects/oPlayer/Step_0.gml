@@ -41,3 +41,21 @@ if (place_meeting(x, y + vspd, oMur))
 }
 
 y = y + vspd;
+
+//Animations
+
+if (!place_meeting(x, y + 1, oMur))
+{
+	sprite_index = Splayer_Jump;
+} else {
+	if (hspd == 0) {
+		sprite_index = sPlayer;
+	} else {
+		sprite_index = Splayer_Run;
+	}
+}
+
+
+
+
+
