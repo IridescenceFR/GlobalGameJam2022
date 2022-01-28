@@ -57,6 +57,7 @@
     {"id":{"name":"ext_light_attenuation_reset","path":"scripts/ext_light_attenuation_reset/ext_light_attenuation_reset.yy",},"order":2,},
     {"id":{"name":"light_create","path":"scripts/light_create/light_create.yy",},"order":5,},
     {"id":{"name":"light_update","path":"scripts/light_update/light_update.yy",},"order":4,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"spr_lut_light_intensity_line","path":"sprites/spr_lut_light_intensity_line/spr_lut_light_intensity_line.yy",},"order":1,},
     {"id":{"name":"tri_direction","path":"scripts/tri_direction/tri_direction.yy",},"order":10,},
     {"id":{"name":"oMur","path":"objects/oMur/oMur.yy",},"order":1,},
@@ -83,12 +84,14 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
+  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -128,7 +131,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "GAMEJAM_2022",
