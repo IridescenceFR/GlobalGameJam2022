@@ -25,13 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"Light_Color","path":"objects/obj_light/obj_light.yy",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"$FF2897FF","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTestLight",
+  "name": "oStaticLight",
   "tags": [],
   "resourceType": "GMObject",
 }
