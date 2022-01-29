@@ -27,7 +27,7 @@ if(hide)
 }
 else
 {
-	stress += 500 / (abs(instance_nearest(x, y, oEnemy).x - x) / 2)
+	stress += 100 / (abs(instance_nearest(x, y, oEnemy).x - x) / 2)
 }
 
 

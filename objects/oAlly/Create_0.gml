@@ -1,6 +1,6 @@
 /// @description Attributs de l'allié
 
-stress = 80;
+stress = 0;
 hspd = 0;
 vspd = 0;
 grav = 0.5;
