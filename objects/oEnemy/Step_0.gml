@@ -1,12 +1,19 @@
 //Mouvements du personnage
 
-hspd = walkspd;
+hspd = sign(oPlayer.x - x) * walkspd;
+
 vspd = vspd + grav;
 
 //Collision horizontales
 
 if (place_meeting(x + hspd, y, oMur)) {
-	walkspd = walkspd * -1;	
+	while (!place_meeting(x + sign(hspd), y, oMur)) {
+		x = x + sign(hspd);
+	}
+	hspd = 0;
+	if (place_meeting(x, y + 1, oMur)) {
+		vspd = -10;
+	}
 }
 
 x = x + hspd;
@@ -41,12 +48,12 @@ if (hspd != 0) {
 // Interaction avec le joueur
 
 if (place_meeting(x, y, oPlayer) && oPlayer.invincible == false) {
-	if (oPlayer.y < y - 10) {
-		with (oPlayer) vspd = -4;
-		hp -= 1;
-	} else if (oPlayer.invincible == false) {
-		global.hp -= 1;
-		oPlayer.invincible = true;
-		oPlayer.alarm[0] = 30;
-	}
+	global.hp -= 1;
+	oPlayer.invincible = true;
+	oPlayer.alarm[0] = 30;
+}
+
+// Interaction avec le fouet
+if (place_meeting(x, y, oWhip) {
+	hp -= 1;
 }
