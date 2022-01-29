@@ -111,6 +111,7 @@
     {"id":{"name":"light_static_get_array","path":"scripts/light_static_get_array/light_static_get_array.yy",},"order":0,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"sh_shadow_map","path":"shaders/sh_shadow_map/sh_shadow_map.yy",},"order":1,},
+    {"id":{"name":"Room1_3","path":"rooms/Room1_3/Room1_3.yy",},"order":6,},
     {"id":{"name":"oEnemyShooter","path":"objects/oEnemyShooter/oEnemyShooter.yy",},"order":14,},
     {"id":{"name":"oAllyRunner","path":"objects/oAllyRunner/oAllyRunner.yy",},"order":18,},
     {"id":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},"order":4,},
@@ -125,14 +126,14 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
-  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},},
+    {"roomId":{"name":"Room1_3","path":"rooms/Room1_3/Room1_3.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"roomId":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -176,7 +177,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.7.606",
+    "IDEVersion": "2022.1.0.609",
   },
   "resourceVersion": "1.4",
   "name": "GAMEJAM_2022",
