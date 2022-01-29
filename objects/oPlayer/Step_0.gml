@@ -11,6 +11,11 @@ var move = press_right - press_left;
 hspd = move * walkspd;
 vspd = vspd + grav;
 
+if (move > 0) {
+	is_facing_right = true;
+} else if (move < 0) {
+	is_facing_right = false;
+}
 
 if (place_meeting(x, y + 1, oMur)) && (press_jump) {
 	vspd = -10;
@@ -57,7 +62,11 @@ if (hspd != 0) {
 if (press_attack && is_attacking == false) {
 	is_attacking = true;
 	sprite_index = sPlayer;
-	instance_create_layer(x + 30, y, "Player", oWhip);
+	if (is_facing_right) {
+		instance_create_layer(x + 50, y, "Player", oWhip);
+	} else {
+		instance_create_layer(x - 50, y, "Player", oWhip);
+	}
 	alarm[1] = 30;
 }
 
