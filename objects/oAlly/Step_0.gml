@@ -11,6 +11,7 @@
 if (stress < 0)
 {
 	stress = 0;
+	hide = false
 }
 else
 {
@@ -20,9 +21,19 @@ else
 	}
 }
 
+if(hide)
+{
+	stress -= 1;
+}
+else
+{
+	stress += 500 / (abs(instance_nearest(x, y, oEnemy).x - x) / 2)
+}
+
+
 // Action de l'allié en fonction de son stress
 
-if(stress < 50) // Suivi du joueur
+if((stress < 70) && !hide) // Suivi du joueur
 {
 	var move = oPlayer.x - x;
 	if(abs(move) > 70)
@@ -34,9 +45,25 @@ if(stress < 50) // Suivi du joueur
 		hspd = 0;
 	}
 }
-else // L'allié cherche à se cacher
+else if(!hide)// L'allié cherche à se cacher
 {
-	
+	var move = instance_nearest(x, y, oCachette).x - x;
+	if(move != 0)
+	{
+		if(abs(move) > 4)
+		{
+			hspd = sign(move) * walkspd;
+		}
+		else
+		{
+			hspd = sign(move);
+		}
+	}
+	else
+	{
+		hspd = 0;
+		hide = true;
+	}
 }
 
 // Movement de l'allié
