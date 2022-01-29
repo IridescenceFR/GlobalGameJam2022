@@ -67,7 +67,7 @@ if (press_attack && is_attacking == false) {
 	} else {
 		instance_create_layer(x - 50, y, "Player", oWhip);
 	}
-	alarm[1] = 50;
+	alarm[1] = 30;
 }
 
 
