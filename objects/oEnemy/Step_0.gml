@@ -1,12 +1,17 @@
 //Mouvements du personnage
 
-hspd = walkspd;
+hspd = sign(oPlayer.x - x) * walkspd;
+
 vspd = vspd + grav;
 
 //Collision horizontales
 
 if (place_meeting(x + hspd, y, oMur)) {
-	walkspd = walkspd * -1;	
+	//walkspd = walkspd * -1;	
+	while (!place_meeting(x + sign(hspd), y, oMur)) {
+		x = x + sign(hspd);
+	}
+	hspd = 0;
 }
 
 x = x + hspd;
