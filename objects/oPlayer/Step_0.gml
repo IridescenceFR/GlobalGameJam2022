@@ -88,12 +88,12 @@ y = y + vspd;
 //Animations
 
 if (!place_meeting(x, y + 1, oMur)) {
-	sprite_index = Splayer_Jump;
+	sprite_index = sPlayer_Idle;
 } else {
 	if (hspd == 0) {
-		sprite_index = sAlly_Idle;
+		sprite_index = sPlayer_Idle;
 	} else {
-		sprite_index = sAlly_Run;
+		sprite_index = Splayer_Run;
 	}
 }
 
@@ -103,7 +103,7 @@ if (hspd != 0) {
 
 if (press_attack && is_attacking == false) {
 	is_attacking = true;
-	sprite_index = sPlayer;
+	sprite_index = sPlayer_Idle;
 	if (is_facing_right) {
 		instance_create_layer(x + 50, y, "Player", oWhip);
 	} else {

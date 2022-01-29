@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"sPlayer_Idle","path":"sprites/sPlayer_Idle/sPlayer_Idle.yy",},"order":0,},
     {"id":{"name":"lighting_debug_shadow_casters","path":"scripts/lighting_debug_shadow_casters/lighting_debug_shadow_casters.yy",},"order":2,},
     {"id":{"name":"sAlly_Idle","path":"sprites/sAlly_Idle/sAlly_Idle.yy",},"order":7,},
     {"id":{"name":"oHeart","path":"objects/oHeart/oHeart.yy",},"order":17,},
@@ -63,6 +63,7 @@
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},"order":5,},
     {"id":{"name":"polygon_get_area","path":"scripts/polygon_get_area/polygon_get_area.yy",},"order":7,},
     {"id":{"name":"spr_light_renderer","path":"sprites/spr_light_renderer/spr_light_renderer.yy",},"order":6,},
+    {"id":{"name":"Room1_2","path":"rooms/Room1_2/Room1_2.yy",},"order":7,},
     {"id":{"name":"shadow_map_ensure_exists","path":"scripts/shadow_map_ensure_exists/shadow_map_ensure_exists.yy",},"order":9,},
     {"id":{"name":"lighting_pre_composite","path":"scripts/lighting_pre_composite/lighting_pre_composite.yy",},"order":4,},
     {"id":{"name":"Contributors","path":"notes/Contributors/Contributors.yy",},"order":0,},
@@ -140,6 +141,7 @@
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
+    {"roomId":{"name":"Room1_2","path":"rooms/Room1_2/Room1_2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
