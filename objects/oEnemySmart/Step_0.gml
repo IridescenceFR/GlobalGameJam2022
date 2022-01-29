@@ -5,8 +5,8 @@ if (oAlly.hide == true) {
 	hspd = sign(oPlayer.x - x) * walkspd;
 } else {
 	hspd = sign(oAlly.x - x) * walkspd;
-
 }
+
 vspd = vspd + grav;
 
 //Collision horizontales
