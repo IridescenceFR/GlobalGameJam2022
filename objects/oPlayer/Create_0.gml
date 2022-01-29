@@ -7,6 +7,7 @@ walkspd = 4;
 targetX = x;
 targetY = y;
 global.hp = 3;
+global.key_count = 0;
 invincible = false;
 is_attacking = false;
 is_facing_right = true;

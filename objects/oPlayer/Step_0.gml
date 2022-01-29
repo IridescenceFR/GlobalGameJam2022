@@ -31,6 +31,13 @@ if (place_meeting(x + hspd, y, oMur)) {
 	hspd = 0;	
 }
 
+if (global.key_count < 1 && place_meeting(x + hspd, y, oNextLocked)) {
+	while (!place_meeting(x + sign(hspd) + 5, y, oNextLocked)) {
+		x = x + sign(hspd);
+	}
+	hspd = 0;	
+}
+
 x = x + hspd;
 
 //Collisions verticales
