@@ -107,7 +107,7 @@
             {"propertyId":{"name":"roomChoose","path":"objects/oNext/oNext.yy",},"objectId":{"name":"oNext","path":"objects/oNext/oNext.yy",},"value":"Room3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"oNext","path":"objects/oNext/oNext.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":1216.0,"resourceVersion":"1.0","name":"inst_74E1DE96","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Mur","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"spriteId":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
+    {"spriteId":{"name":"Background","path":"sprites/Background/Background.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
@@ -195,7 +195,7 @@
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-    "Width": 2560,
+    "Width": 2800,
     "Height": 2000,
     "persistent": false,
   },
