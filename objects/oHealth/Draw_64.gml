@@ -1,0 +1,1 @@
+draw_sprite(sHealth, -1, 64, 64);

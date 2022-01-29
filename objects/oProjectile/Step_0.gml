@@ -2,7 +2,7 @@ if (place_meeting(x, y, oPlayer) && oPlayer.invincible == false) {
 	instance_destroy();
 	global.hp -= 1;
 	oPlayer.invincible = true;
-	oPlayer.alarm[0] = 30;
+	oPlayer.alarm[0] = 50;
 	oAlly.stress += 5;
 } else if (place_meeting(x, y, oAlly) && oAlly.hide == false) {
 	instance_destroy();
