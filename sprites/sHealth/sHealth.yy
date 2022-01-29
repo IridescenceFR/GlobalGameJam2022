@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
+  "bbox_left": 2,
   "bbox_right": 57,
-  "bbox_top": 0,
+  "bbox_top": 31,
   "bbox_bottom": 49,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"161aebeb-2347-457e-9956-53fad9d218b7","path":"sprites/sHealth/sHealth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"161aebeb-2347-457e-9956-53fad9d218b7","path":"sprites/sHealth/sHealth.yy",},"LayerId":{"name":"b4e20da6-a6ef-4333-8896-84162330975e","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"161aebeb-2347-457e-9956-53fad9d218b7","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"b69c0e56-9461-47bc-85fc-c89fa4a19b7f","path":"sprites/sHealth/sHealth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"b69c0e56-9461-47bc-85fc-c89fa4a19b7f","path":"sprites/sHealth/sHealth.yy",},"LayerId":{"name":"b4e20da6-a6ef-4333-8896-84162330975e","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"b69c0e56-9461-47bc-85fc-c89fa4a19b7f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"74718f96-88d4-4dc9-83da-5cfed7376074","path":"sprites/sHealth/sHealth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"74718f96-88d4-4dc9-83da-5cfed7376074","path":"sprites/sHealth/sHealth.yy",},"LayerId":{"name":"b4e20da6-a6ef-4333-8896-84162330975e","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"74718f96-88d4-4dc9-83da-5cfed7376074","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"ac1cbe09-3190-4f42-9a77-8cf2acfa30af","path":"sprites/sHealth/sHealth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ac1cbe09-3190-4f42-9a77-8cf2acfa30af","path":"sprites/sHealth/sHealth.yy",},"LayerId":{"name":"b4e20da6-a6ef-4333-8896-84162330975e","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","name":"ac1cbe09-3190-4f42-9a77-8cf2acfa30af","tags":[],"resourceType":"GMSpriteFrame",},
@@ -50,8 +50,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"52ab3bb7-2dcd-4f76-86dc-3c1d5fa3a15e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"161aebeb-2347-457e-9956-53fad9d218b7","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"7e028abb-33c4-467d-8cf9-388d29d6e240","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b69c0e56-9461-47bc-85fc-c89fa4a19b7f","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7e028abb-33c4-467d-8cf9-388d29d6e240","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b69c0e56-9461-47bc-85fc-c89fa4a19b7f","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"875560a1-bd62-4452-b84c-a8c02edd966c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"74718f96-88d4-4dc9-83da-5cfed7376074","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"92fc1b37-af28-49ab-bdcb-169e8630aa64","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac1cbe09-3190-4f42-9a77-8cf2acfa30af","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"dd1ca003-32eb-4495-a3f2-34fd76dbed68","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"82056b29-46a0-496f-ad11-ea5f34ddcd22","path":"sprites/sHealth/sHealth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},

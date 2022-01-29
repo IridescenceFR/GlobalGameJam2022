@@ -19,7 +19,7 @@ if (hspd != 0) {
 if (place_meeting(x, y, oPlayer) && oPlayer.invincible == false) {
 	global.hp -= 1;
 	oPlayer.invincible = true;
-	oPlayer.alarm[0] = 30;
+	oPlayer.alarm[0] = 50;
 	oAlly.stress += 5;
 } else if (place_meeting(x, y, oAlly) && oAlly.hide == false) {
 	oAlly.stress += 10;
@@ -28,6 +28,4 @@ if (place_meeting(x, y, oPlayer) && oPlayer.invincible == false) {
 // Interaction avec le fouet
 if (place_meeting(x, y, oWhip)) {
 	hp -= 1;
-	oAlly.stress -= 15;
-	
 }
