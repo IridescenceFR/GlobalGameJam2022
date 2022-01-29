@@ -54,6 +54,6 @@ if (place_meeting(x, y, oPlayer) && oPlayer.invincible == false) {
 }
 
 // Interaction avec le fouet
-if (place_meeting(x, y, oWhip) {
+if (place_meeting(x, y, oWhip)) {
 	hp -= 1;
 }

@@ -27,21 +27,29 @@
     {"compositeImage":{"FrameId":{"name":"6581d846-22dd-400b-838a-8297236078c6","path":"sprites/sSmoke/sSmoke.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"6581d846-22dd-400b-838a-8297236078c6","path":"sprites/sSmoke/sSmoke.yy",},"LayerId":{"name":"bb87d229-d313-4713-8fc8-82f4f6bbc559","path":"sprites/sSmoke/sSmoke.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sSmoke","path":"sprites/sSmoke/sSmoke.yy",},"resourceVersion":"1.0","name":"6581d846-22dd-400b-838a-8297236078c6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ea163b8e-b9a9-479f-90dd-c79807ec5350","path":"sprites/sSmoke/sSmoke.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ea163b8e-b9a9-479f-90dd-c79807ec5350","path":"sprites/sSmoke/sSmoke.yy",},"LayerId":{"name":"bb87d229-d313-4713-8fc8-82f4f6bbc559","path":"sprites/sSmoke/sSmoke.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSmoke","path":"sprites/sSmoke/sSmoke.yy",},"resourceVersion":"1.0","name":"ea163b8e-b9a9-479f-90dd-c79807ec5350","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"36615713-c6ef-40ed-b705-beafca5325e8","path":"sprites/sSmoke/sSmoke.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"36615713-c6ef-40ed-b705-beafca5325e8","path":"sprites/sSmoke/sSmoke.yy",},"LayerId":{"name":"bb87d229-d313-4713-8fc8-82f4f6bbc559","path":"sprites/sSmoke/sSmoke.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSmoke","path":"sprites/sSmoke/sSmoke.yy",},"resourceVersion":"1.0","name":"36615713-c6ef-40ed-b705-beafca5325e8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sSmoke","path":"sprites/sSmoke/sSmoke.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 3.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"612d0de3-83e3-4886-a3ea-3d5ae85d08eb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6581d846-22dd-400b-838a-8297236078c6","path":"sprites/sSmoke/sSmoke.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"83e7d940-fa73-4ec2-b3dc-103a91bc7318","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea163b8e-b9a9-479f-90dd-c79807ec5350","path":"sprites/sSmoke/sSmoke.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b44fcd26-37c1-41dd-9ae2-19778a7012ba","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"36615713-c6ef-40ed-b705-beafca5325e8","path":"sprites/sSmoke/sSmoke.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
