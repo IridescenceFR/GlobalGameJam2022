@@ -11,7 +11,7 @@
 if (stress < 0)
 {
 	stress = 0;
-	if(instance_nearest(x, y, oEnemy) == noone || (distance_to_object(oEnemy) > 1000) && (distance_to_object(oPlayer) < 400))
+	if(instance_nearest(x, y, oEnemy) == noone || (distance_to_object(oEnemy) > 800) && (distance_to_object(oPlayer) < 500))
 	{
 		hide = false;
 	}
