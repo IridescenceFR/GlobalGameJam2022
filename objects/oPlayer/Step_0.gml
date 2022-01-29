@@ -2,6 +2,7 @@
 
 press_right = keyboard_check(vk_right);
 press_left = keyboard_check(vk_left);
+press_down = keyboard_check(vk_down);
 press_jump = keyboard_check(vk_space);
 press_attack = keyboard_check(ord("A"));
 
