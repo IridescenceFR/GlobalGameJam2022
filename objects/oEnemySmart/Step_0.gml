@@ -32,12 +32,12 @@ y = y + vspd;
 //Animations
 
 if (!place_meeting(x, y + 1, oMur)) {
-	sprite_index = sEnemy;
+	sprite_index = sEnemySmart;
 } else {
 	if (hspd == 0) {
-		sprite_index = sEnemy;
+		sprite_index = sEnemySmart;
 	} else {
-		sprite_index = sEnemy;
+		sprite_index = sEnemySmart;
 	}
 }
 
