@@ -27,7 +27,10 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"type","path":"objects/oMur/oMur.yy",},"objectId":{"name":"oMur","path":"objects/oMur/oMur.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"shadow_length","path":"objects/obj_shadow_caster/obj_shadow_caster.yy",},"objectId":{"name":"obj_shadow_caster","path":"objects/obj_shadow_caster/obj_shadow_caster.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

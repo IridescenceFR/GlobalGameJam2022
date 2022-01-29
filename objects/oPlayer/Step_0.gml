@@ -18,8 +18,9 @@ if (move > 0) {
 	is_facing_right = false;
 }
 
-if (place_meeting(x, y + 1, oMur)) && (press_jump) {
-	vspd = -15;
+if (place_meeting(x, y + 1, oMur)) && (press_jump) && (grounded)
+{
+	vspd = -17;
 	grounded = false;
 }
 
@@ -62,7 +63,10 @@ if (vcollide != noone)
 			vspd = 0;
 			grounded = true;
 		}
-		if (((vcollide).type == 2) && sign(vspd) == 1)
+	}
+	if (((vcollide).type == 2) && sign(vspd) == 1)
+	{
+		if (!place_meeting(x, y, oMur))
 		{
 			while (!place_meeting(x, y + sign(vspd), oMur))
 			{
@@ -72,6 +76,11 @@ if (vcollide != noone)
 			grounded = true;
 		}
 	}
+}
+
+if (vspd > 0)
+{
+	grounded = false;
 }
 
 y = y + vspd;

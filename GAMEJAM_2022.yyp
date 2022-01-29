@@ -53,6 +53,7 @@
     {"id":{"name":"oCachette","path":"objects/oCachette/oCachette.yy",},"order":7,},
     {"id":{"name":"light_cull","path":"scripts/light_cull/light_cull.yy",},"order":0,},
     {"id":{"name":"lighting_update_camera","path":"scripts/lighting_update_camera/lighting_update_camera.yy",},"order":3,},
+    {"id":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},"order":5,},
     {"id":{"name":"point_in_polygon","path":"scripts/point_in_polygon/point_in_polygon.yy",},"order":6,},
     {"id":{"name":"oNext","path":"objects/oNext/oNext.yy",},"order":12,},
     {"id":{"name":"sMur","path":"sprites/sMur/sMur.yy",},"order":1,},
@@ -112,6 +113,7 @@
     {"id":{"name":"sh_shadow_map","path":"shaders/sh_shadow_map/sh_shadow_map.yy",},"order":1,},
     {"id":{"name":"oEnemyShooter","path":"objects/oEnemyShooter/oEnemyShooter.yy",},"order":14,},
     {"id":{"name":"oAllyRunner","path":"objects/oAllyRunner/oAllyRunner.yy",},"order":18,},
+    {"id":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},"order":4,},
     {"id":{"name":"lighting_free","path":"scripts/lighting_free/lighting_free.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -129,10 +131,12 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
