@@ -34,5 +34,5 @@ if (is_firing == false) {
 	is_firing = true;
 	sprite_index = sEnemyShooter;
 	instance_create_layer(x, y, "Enemy", oProjectile);
-	alarm[0] = choose(45, 60, 75);
+	alarm[0] = choose(90);
 }

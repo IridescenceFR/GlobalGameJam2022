@@ -8,3 +8,4 @@ targetX = x;
 targetY = y;
 global.hp = 3;
 invincible = false;
+is_attacking = false;

@@ -3,6 +3,7 @@
 press_right = keyboard_check(vk_right);
 press_left = keyboard_check(vk_left);
 press_jump = keyboard_check(vk_space);
+press_attack = keyboard_check(ord("A"));
 
 //Mouvements du personnage
 
@@ -53,7 +54,12 @@ if (hspd != 0) {
 	image_xscale = sign(hspd);
 }
 
-
+if (press_attack && is_attacking == false) {
+	is_attacking = true;
+	sprite_index = sPlayer;
+	instance_create_layer(x + 30, y, "Player", oWhip);
+	alarm[1] = 30;
+}
 
 
 
