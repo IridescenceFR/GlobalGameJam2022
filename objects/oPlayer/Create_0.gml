@@ -3,7 +3,7 @@
 hspd = 0;
 vspd = 0;
 grav = 0.5;
-walkspd = 4;
+walkspd = 8;
 targetX = x;
 targetY = y;
 global.hp = 3;

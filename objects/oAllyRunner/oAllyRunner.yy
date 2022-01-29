@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sAlly",
-    "path": "sprites/sAlly/sAlly.yy",
+    "name": "sAlly_Idle",
+    "path": "sprites/sAlly_Idle/sAlly_Idle.yy",
   },
   "solid": false,
   "visible": true,

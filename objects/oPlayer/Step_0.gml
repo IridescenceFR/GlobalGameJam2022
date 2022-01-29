@@ -91,9 +91,9 @@ if (!place_meeting(x, y + 1, oMur)) {
 	sprite_index = Splayer_Jump;
 } else {
 	if (hspd == 0) {
-		sprite_index = sPlayer;
+		sprite_index = sAlly_Idle;
 	} else {
-		sprite_index = Splayer_Run;
+		sprite_index = sAlly_Run;
 	}
 }
 
