@@ -34,6 +34,7 @@
     {"id":{"name":"shadow_casters_exist","path":"scripts/shadow_casters_exist/shadow_casters_exist.yy",},"order":8,},
     {"id":{"name":"oMurEvil","path":"objects/oMurEvil/oMurEvil.yy",},"order":21,},
     {"id":{"name":"Splayer_Jump","path":"sprites/Splayer_Jump/Splayer_Jump.yy",},"order":3,},
+    {"id":{"name":"Room1_2","path":"rooms/Room1_2/Room1_2.yy",},"order":6,},
     {"id":{"name":"light_enumerate_extensions","path":"scripts/light_enumerate_extensions/light_enumerate_extensions.yy",},"order":3,},
     {"id":{"name":"sSmoke","path":"sprites/sSmoke/sSmoke.yy",},"order":10,},
     {"id":{"name":"oKey","path":"objects/oKey/oKey.yy",},"order":22,},
@@ -139,6 +140,7 @@
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
+    {"roomId":{"name":"Room1_2","path":"rooms/Room1_2/Room1_2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
