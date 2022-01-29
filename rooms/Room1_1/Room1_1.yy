@@ -26,6 +26,8 @@
     {"instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oCachette","path":"objects/oCachette/oCachette.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":1216.0,"resourceVersion":"1.0","name":"inst_7CFB4399","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oStaticLight","path":"objects/oStaticLight/oStaticLight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-128.0,"y":1280.0,"resourceVersion":"1.0","name":"inst_449A7313","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oStaticLight","path":"objects/oStaticLight/oStaticLight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3968.0,"y":1280.0,"resourceVersion":"1.0","name":"inst_C192D5C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Cachette","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Ally","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -620,6 +622,8 @@
     {"name":"inst_146C387B","path":"rooms/Room1_1/Room1_1.yy",},
     {"name":"inst_27D10199","path":"rooms/Room1_1/Room1_1.yy",},
     {"name":"inst_10607FD6","path":"rooms/Room1_1/Room1_1.yy",},
+    {"name":"inst_449A7313","path":"rooms/Room1_1/Room1_1.yy",},
+    {"name":"inst_C192D5C","path":"rooms/Room1_1/Room1_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
