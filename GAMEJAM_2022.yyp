@@ -29,6 +29,7 @@
     {"id":{"name":"light_create_point","path":"scripts/light_create_point/light_create_point.yy",},"order":9,},
     {"id":{"name":"shadow_casters_exist","path":"scripts/shadow_casters_exist/shadow_casters_exist.yy",},"order":8,},
     {"id":{"name":"Splayer_Jump","path":"sprites/Splayer_Jump/Splayer_Jump.yy",},"order":3,},
+    {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},"order":16,},
     {"id":{"name":"light_enumerate_extensions","path":"scripts/light_enumerate_extensions/light_enumerate_extensions.yy",},"order":3,},
     {"id":{"name":"sSmoke","path":"sprites/sSmoke/sSmoke.yy",},"order":10,},
     {"id":{"name":"oAlly","path":"objects/oAlly/oAlly.yy",},"order":6,},
@@ -98,6 +99,7 @@
     {"id":{"name":"sh_shadow_map","path":"shaders/sh_shadow_map/sh_shadow_map.yy",},"order":1,},
     {"id":{"name":"oEnemyShooter","path":"objects/oEnemyShooter/oEnemyShooter.yy",},"order":13,},
     {"id":{"name":"lighting_free","path":"scripts/lighting_free/lighting_free.yy",},"order":6,},
+    {"id":{"name":"sPlatform","path":"sprites/sPlatform/sPlatform.yy",},"order":17,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -108,6 +110,7 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
+  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
@@ -156,7 +159,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "GAMEJAM_2022",
