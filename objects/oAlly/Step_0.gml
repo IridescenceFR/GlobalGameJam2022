@@ -89,7 +89,7 @@ if (place_meeting(x + hspd, y, oMur)) {
 	hspd = 0;
 	if (place_meeting(x, y + 1, oMur))
 	{
-		vspd = -9;
+		vspd = -14;
 	}
 }
 
@@ -105,3 +105,17 @@ if (place_meeting(x, y + vspd, oMur)) {
 }
 
 y = y + vspd;
+
+if (!place_meeting(x, y + 1, oMur)) {
+	//sprite_index = Splayer_Jump;
+} else {
+	if (hspd == 0) {
+		sprite_index = sAlly_Idle;
+	} else {
+		sprite_index = sAlly_Run;
+	}
+}
+
+if (hspd != 0) {
+	image_xscale = sign(hspd);
+}

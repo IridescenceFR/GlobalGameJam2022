@@ -2,9 +2,10 @@
   "resources": [
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"lighting_debug_shadow_casters","path":"scripts/lighting_debug_shadow_casters/lighting_debug_shadow_casters.yy",},"order":2,},
-    {"id":{"name":"sAlly","path":"sprites/sAlly/sAlly.yy",},"order":7,},
+    {"id":{"name":"sAlly_Idle","path":"sprites/sAlly_Idle/sAlly_Idle.yy",},"order":7,},
     {"id":{"name":"oHeart","path":"objects/oHeart/oHeart.yy",},"order":17,},
     {"id":{"name":"light_static_set_array","path":"scripts/light_static_set_array/light_static_set_array.yy",},"order":1,},
+    {"id":{"name":"sAlly_Run","path":"sprites/sAlly_Run/sAlly_Run.yy",},"order":23,},
     {"id":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"order":0,},
     {"id":{"name":"oWhip","path":"objects/oWhip/oWhip.yy",},"order":11,},
     {"id":{"name":"light_trace_polygon","path":"scripts/light_trace_polygon/light_trace_polygon.yy",},"order":3,},
