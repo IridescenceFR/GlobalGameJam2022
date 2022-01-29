@@ -80,6 +80,7 @@
     {"id":{"name":"tri_direction","path":"scripts/tri_direction/tri_direction.yy",},"order":10,},
     {"id":{"name":"oMur","path":"objects/oMur/oMur.yy",},"order":1,},
     {"id":{"name":"oStaticLight","path":"objects/oStaticLight/oStaticLight.yy",},"order":6,},
+    {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":15,},
     {"id":{"name":"sProjectile","path":"sprites/sProjectile/sProjectile.yy",},"order":16,},
     {"id":{"name":"light_create_line","path":"scripts/light_create_line/light_create_line.yy",},"order":8,},
     {"id":{"name":"spr_light_point","path":"sprites/spr_light_point/spr_light_point.yy",},"order":5,},
