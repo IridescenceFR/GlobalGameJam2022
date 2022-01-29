@@ -1,16 +1,6 @@
 //Mouvements du personnage
 
-hspd = walkspd;
-
 vspd = vspd + grav;
-
-//Collision horizontales
-
-if (place_meeting(x + hspd, y, oMur)) {
-	walkspd = walkspd * -1;
-}
-
-x = x + hspd;
 
 //Collisions verticales
 
@@ -22,18 +12,6 @@ if (place_meeting(x, y + vspd, oMur)) {
 }
 
 y = y + vspd;
-
-//Animations
-
-if (!place_meeting(x, y + 1, oMur)) {
-	sprite_index = sEnemyDumb;
-} else {
-	if (hspd == 0) {
-		sprite_index = sEnemyDumb;
-	} else {
-		sprite_index = sEnemyDumb;
-	}
-}
 
 if (hspd != 0) {
 	image_xscale = sign(hspd);
@@ -50,4 +28,11 @@ if (place_meeting(x, y, oPlayer) && oPlayer.invincible == false) {
 // Interaction avec le fouet
 if (place_meeting(x, y, oWhip)) {
 	hp -= 1;
+}
+
+if (is_firing == false) {
+	is_firing = true;
+	sprite_index = sEnemyShooter;
+	instance_create_layer(x, y, "Enemy", oProjectile);
+	alarm[0] = choose(45, 60, 75);
 }

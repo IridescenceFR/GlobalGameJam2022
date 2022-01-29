@@ -25,14 +25,11 @@ y = y + vspd;
 
 //Animations
 
-if (!place_meeting(x, y + 1, oMur)) {
+
+if (hspd == 0) {
 	sprite_index = sEnemyDumb;
 } else {
-	if (hspd == 0) {
-		sprite_index = sEnemyDumb;
-	} else {
-		sprite_index = sEnemyDumb;
-	}
+	sprite_index = sEnemyDumb;
 }
 
 if (hspd != 0) {
