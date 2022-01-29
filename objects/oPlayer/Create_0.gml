@@ -11,3 +11,4 @@ global.key_count = 0;
 invincible = false;
 is_attacking = false;
 is_facing_right = true;
+grounded = true;

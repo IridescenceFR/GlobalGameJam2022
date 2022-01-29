@@ -19,16 +19,22 @@ if (move > 0) {
 }
 
 if (place_meeting(x, y + 1, oMur)) && (press_jump) {
-	vspd = -10;
+	vspd = -15;
+	grounded = false;
 }
 
 //Collision horizontales
 
-if (place_meeting(x + hspd, y, oMur)) {
-	while (!place_meeting(x + sign(hspd), y, oMur)) {
-		x = x + sign(hspd);
+var hcollide = instance_place(x + hspd, y, oMur);
+if (hcollide != noone)
+{
+	if((hcollide).type == 1)
+	{
+		while (!place_meeting(x + sign(hspd), y, oMur)) {
+			x += sign(hspd);
+		}
+		hspd = 0;	
 	}
-	hspd = 0;	
 }
 
 if (global.key_count < 1 && place_meeting(x + hspd, y, oNextLocked)) {
@@ -42,11 +48,30 @@ x = x + hspd;
 
 //Collisions verticales
 
-if (place_meeting(x, y + vspd, oMur)) {
-	while (!place_meeting(x, y + sign(vspd), oMur)) {
-		y = y + sign(vspd);
+var vcollide = instance_place(x, y + vspd, oMur);
+if (vcollide != noone)
+{
+	if ((vcollide).type == 1)
+	{
+		if (place_meeting(x, y + vspd, oMur))
+		{
+			while (!place_meeting(x, y + sign(vspd), oMur))
+			{
+				y += sign(vspd);
+			}
+			vspd = 0;
+			grounded = true;
+		}
+		if (((vcollide).type == 2) && sign(vspd) == 1)
+		{
+			while (!place_meeting(x, y + sign(vspd), oMur))
+			{
+				y += 1;
+			}
+			vspd = 0;
+			grounded = true;
+		}
 	}
-	vspd = 0;	
 }
 
 y = y + vspd;

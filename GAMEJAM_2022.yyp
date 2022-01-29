@@ -66,6 +66,7 @@
     {"id":{"name":"Contributors","path":"notes/Contributors/Contributors.yy",},"order":0,},
     {"id":{"name":"polygon_from_instance","path":"scripts/polygon_from_instance/polygon_from_instance.yy",},"order":5,},
     {"id":{"name":"sEnemyDumb","path":"sprites/sEnemyDumb/sEnemyDumb.yy",},"order":14,},
+    {"id":{"name":"sPlatform","path":"sprites/sPlatform/sPlatform.yy",},"order":22,},
     {"id":{"name":"light_create_spot","path":"scripts/light_create_spot/light_create_spot.yy",},"order":10,},
     {"id":{"name":"light_add_to_world","path":"scripts/light_add_to_world/light_add_to_world.yy",},"order":4,},
     {"id":{"name":"sh_blend_light","path":"shaders/sh_blend_light/sh_blend_light.yy",},"order":0,},
@@ -81,6 +82,7 @@
     {"id":{"name":"spr_light_line","path":"sprites/spr_light_line/spr_light_line.yy",},"order":4,},
     {"id":{"name":"ext_light_attenuation_reset","path":"scripts/ext_light_attenuation_reset/ext_light_attenuation_reset.yy",},"order":2,},
     {"id":{"name":"TileSet","path":"tilesets/TileSet/TileSet.yy",},"order":0,},
+    {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},"order":25,},
     {"id":{"name":"light_create","path":"scripts/light_create/light_create.yy",},"order":5,},
     {"id":{"name":"sDeathWall","path":"sprites/sDeathWall/sDeathWall.yy",},"order":18,},
     {"id":{"name":"sKey","path":"sprites/sKey/sKey.yy",},"order":21,},
@@ -121,6 +123,7 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
+  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
@@ -169,7 +172,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "GAMEJAM_2022",
