@@ -8,7 +8,7 @@
 
 // Gestion du stress
 
-if (stress < 0)
+if (stress <= 0)
 {
 	stress = 0;
 	if(instance_nearest(x, y, oEnemy) == noone || (distance_to_object(oEnemy) > 800) && (distance_to_object(oPlayer) < 500))
@@ -45,7 +45,7 @@ else
 if((stress < 70) && !hide) // Suivi du joueur
 {
 	var move = oPlayer.x - x;
-	if(abs(move) > 300)
+	if(abs(move) > 200)
 	{
 		hspd = sign(move) * walkspd;
 	}
@@ -57,10 +57,9 @@ if((stress < 70) && !hide) // Suivi du joueur
 else if(!hide)// L'allié cherche à se cacher
 {
 	var move = instance_nearest(x, y, oCachette).x - x;
-	var dist = distance_to_object(oCachette);
-	if(dist != 0)
+	if(move != 0)
 	{
-		if(dist > 4)
+		if(move > 4)
 		{
 			hspd = sign(move) * walkspd;
 		}

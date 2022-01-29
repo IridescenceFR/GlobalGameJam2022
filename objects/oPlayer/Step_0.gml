@@ -2,6 +2,7 @@
 
 press_right = keyboard_check(vk_right);
 press_left = keyboard_check(vk_left);
+press_down = keyboard_check(vk_down);
 press_jump = keyboard_check(vk_space);
 press_attack = keyboard_check(ord("A"));
 
@@ -25,6 +26,13 @@ if (place_meeting(x, y + 1, oMur)) && (press_jump) {
 
 if (place_meeting(x + hspd, y, oMur)) {
 	while (!place_meeting(x + sign(hspd), y, oMur)) {
+		x = x + sign(hspd);
+	}
+	hspd = 0;	
+}
+
+if (global.key_count < 1 && place_meeting(x + hspd, y, oNextLocked)) {
+	while (!place_meeting(x + sign(hspd) + 5, y, oNextLocked)) {
 		x = x + sign(hspd);
 	}
 	hspd = 0;	

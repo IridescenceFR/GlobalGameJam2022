@@ -1,10 +1,10 @@
 event_inherited();
 //Mouvements du personnage
 
-if (oAlly.hide == true) {
-	hspd = sign(oPlayer.x - x) * walkspd;
-} else {
+if (instance_exists(oAlly) && oAlly.hide == false) {
 	hspd = sign(oAlly.x - x) * walkspd;
+} else {
+	hspd = sign(oPlayer.x - x) * walkspd;
 }
 
 vspd = vspd + grav;
