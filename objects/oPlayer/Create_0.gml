@@ -6,3 +6,5 @@ grav = 0.5;
 walkspd = 4;
 targetX = x;
 targetY = y;
+global.hp = 3;
+invincible = false;
