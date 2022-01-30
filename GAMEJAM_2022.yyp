@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sPlayer_Idle","path":"sprites/sPlayer_Idle/sPlayer_Idle.yy",},"order":0,},
+    {"id":{"name":"oLadder","path":"objects/oLadder/oLadder.yy",},"order":28,},
     {"id":{"name":"lighting_debug_shadow_casters","path":"scripts/lighting_debug_shadow_casters/lighting_debug_shadow_casters.yy",},"order":2,},
     {"id":{"name":"sAlly_Idle","path":"sprites/sAlly_Idle/sAlly_Idle.yy",},"order":7,},
     {"id":{"name":"oHeart","path":"objects/oHeart/oHeart.yy",},"order":17,},
@@ -60,6 +61,7 @@
     {"id":{"name":"light_destroy","path":"scripts/light_destroy/light_destroy.yy",},"order":11,},
     {"id":{"name":"oCachette","path":"objects/oCachette/oCachette.yy",},"order":7,},
     {"id":{"name":"light_cull","path":"scripts/light_cull/light_cull.yy",},"order":0,},
+    {"id":{"name":"sLadder","path":"sprites/sLadder/sLadder.yy",},"order":28,},
     {"id":{"name":"lighting_update_camera","path":"scripts/lighting_update_camera/lighting_update_camera.yy",},"order":3,},
     {"id":{"name":"Sword","path":"sounds/Sword/Sword.yy",},"order":2,},
     {"id":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},"order":5,},
