@@ -1,2 +1,2 @@
 event_inherited();
-walkspd = choose(-2, 2);
+walkspd = choose(-4, 4);
