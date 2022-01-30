@@ -69,12 +69,8 @@ if (vcollide != noone)
 	}
 	if (((vcollide).type == 2) && sign(vspd) == 1)
 	{
-		if (!place_meeting(x, y, oMur))
-		{
-			while (!place_meeting(x, y + sign(vspd), oMur))
-			{
-				y += 1;
-			}
+		if (y - vcollide.y < 75 && y - vcollide.y > 65) {
+			
 			vspd = 0;
 			grounded = true;
 		}
