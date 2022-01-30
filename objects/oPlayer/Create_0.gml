@@ -3,6 +3,7 @@
 hspd = 0;
 vspd = 0;
 grav = 0.5;
+antigrav = 0;
 walkspd = 8;
 targetX = x;
 targetY = y;

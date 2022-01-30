@@ -11,9 +11,29 @@ press_attack = keyboard_check(ord("A"));
 
 var move = press_right - press_left;
 hspd = move * walkspd;
-vspd = vspd + grav;
+vspd += grav + antigrav;
 
-
+if(place_meeting(x,y, oLadder))
+{
+	antigrav = -0.5;
+	dir = 0;
+	if(press_up && !press_down)
+	{
+		dir = -1 * walkspd;
+	}
+	else if(press_down && !press_up)
+	{
+		dir = 1 * walkspd;
+	}
+	if(!place_meeting(x, y + dir, oMur))
+	{
+		y += dir;
+	}
+}
+else
+{
+	antigrav = 0;
+}
 
 if (move > 0) {
 	is_facing_right = true;
