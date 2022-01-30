@@ -4,7 +4,7 @@ event_inherited();
 
 vspd = vspd + grav;
 
-if (oPlayer.is_facing_right == false) {
+if (sign(oPlayer.x - x)) {
 	image_xscale = -1;
 }
 
@@ -13,6 +13,6 @@ if (oPlayer.is_facing_right == false) {
 if (is_firing == false) {
 	is_firing = true;
 	sprite_index = sEnemyShooter;
-	//instance_create_layer(x, y, "Enemy", oProjectile);
+	instance_create_layer(x, y, "Enemy", oProjectile);
 	alarm[0] = 90;
 }
