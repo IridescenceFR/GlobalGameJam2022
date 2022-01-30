@@ -35,7 +35,7 @@
     "spriteId": {"name":"sPlayer_Attack","path":"sprites/sPlayer_Attack/sPlayer_Attack.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 5.0,
+    "playbackSpeed": 4.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

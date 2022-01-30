@@ -45,15 +45,6 @@ if (global.key_count < 1 && place_meeting(x + hspd, y, oNextLocked)) {
 	hspd = 0;	
 }
 
-if(hspd != 0)
-{
-	audio_play_sound(FootStep,2,false);
-}
-else
-{
-	
-}
-
 x = x + hspd;
 
 //Collisions verticales
@@ -100,10 +91,20 @@ if (place_meeting(x, y + 1, oMur))
 {
 	jump = false;
 	image_speed = 1;
-	if (hspd == 0) {
-		sprite_index = sPlayer_Idle;
-	} else {
-		sprite_index = sPlayer_Run;
+	if(!is_attacking)
+	{
+		if (hspd == 0)
+		{
+			sprite_index = sPlayer_Idle;
+		}
+		else
+		{
+			sprite_index = sPlayer_Run;
+			if(!audio_is_playing(FootStep))
+			{
+				audio_play_sound(FootStep,2,0);
+			}
+		}
 	}
 }
 else
@@ -131,10 +132,11 @@ if (hspd != 0) {
 if (press_attack && is_attacking == false) {
 	is_attacking = true;
 	sprite_index = sPlayer_Attack;
+	audio_play_sound(Sword, 3, 0)
 	if (is_facing_right) {
-		instance_create_layer(x + 50, y, "Player", oWhip);
+		instance_create_layer(x + 80, y, "Player", oWhip);
 	} else {
-		instance_create_layer(x - 50, y, "Player", oWhip);
+		instance_create_layer(x - 80, y, "Player", oWhip);
 	}
 	alarm[1] = 30;
 }
