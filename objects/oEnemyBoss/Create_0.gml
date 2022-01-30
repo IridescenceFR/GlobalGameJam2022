@@ -1,6 +1,9 @@
 event_inherited();
 walkspd = 0;
 is_firing = false;
-hp = 1;
+hp = 10;
 
 invincible = false;
+
+audio_pause_sound(Music);
+audio_play_sound(bossMusic, 10, true);

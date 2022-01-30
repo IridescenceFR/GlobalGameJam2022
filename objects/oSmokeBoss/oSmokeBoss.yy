@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSmoke",
-    "path": "sprites/sSmoke/sSmoke.yy",
+    "name": "sSmokeBoss",
+    "path": "sprites/sSmokeBoss/sSmokeBoss.yy",
   },
   "solid": false,
   "visible": true,
