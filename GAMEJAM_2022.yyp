@@ -9,6 +9,7 @@
     {"id":{"name":"sAlly_Run","path":"sprites/sAlly_Run/sAlly_Run.yy",},"order":23,},
     {"id":{"name":"sPlayer_JumpUp","path":"sprites/sPlayer_JumpUp/sPlayer_JumpUp.yy",},"order":24,},
     {"id":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"order":0,},
+    {"id":{"name":"Victory","path":"sounds/Victory/Victory.yy",},"order":5,},
     {"id":{"name":"oWhip","path":"objects/oWhip/oWhip.yy",},"order":11,},
     {"id":{"name":"light_trace_polygon","path":"scripts/light_trace_polygon/light_trace_polygon.yy",},"order":3,},
     {"id":{"name":"polygon_create","path":"scripts/polygon_create/polygon_create.yy",},"order":4,},
@@ -133,6 +134,7 @@
     {"id":{"name":"Entrance","path":"rooms/Entrance/Entrance.yy",},"order":4,},
     {"id":{"name":"FootStep","path":"sounds/FootStep/FootStep.yy",},"order":0,},
     {"id":{"name":"lighting_free","path":"scripts/lighting_free/lighting_free.yy",},"order":6,},
+    {"id":{"name":"bossMusic","path":"sounds/bossMusic/bossMusic.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

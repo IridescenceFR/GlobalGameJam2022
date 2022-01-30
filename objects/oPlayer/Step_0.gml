@@ -15,7 +15,9 @@ vspd += grav + antigrav;
 
 if(place_meeting(x,y, oLadder))
 {
-	oAlly.x = x; oAlly.y = y;
+	if (oAlly.hide == false) {
+		oAlly.x = x; oAlly.y = y + 10;
+	}
 	antigrav = -0.5;
 	dir = 0;
 	if(press_up && !press_down)
