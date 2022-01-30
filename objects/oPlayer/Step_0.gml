@@ -45,6 +45,15 @@ if (global.key_count < 1 && place_meeting(x + hspd, y, oNextLocked)) {
 	hspd = 0;	
 }
 
+if(hspd != 0)
+{
+	audio_play_sound(FootStep,2,false);
+}
+else
+{
+	
+}
+
 x = x + hspd;
 
 //Collisions verticales
@@ -87,13 +96,30 @@ y = y + vspd;
 
 //Animations
 
-if (!place_meeting(x, y + 1, oMur)) {
-	sprite_index = sPlayer_Idle;
-} else {
+if (place_meeting(x, y + 1, oMur))
+{
+	jump = false;
+	image_speed = 1;
 	if (hspd == 0) {
 		sprite_index = sPlayer_Idle;
 	} else {
-		sprite_index = Splayer_Run;
+		sprite_index = sPlayer_Run;
+	}
+}
+else
+{
+	if(!jump)
+	{
+		jump = true;
+		sprite_index = sPlayer_JumpUp;
+	}
+	else
+	{
+		if(sign(vspd) == 1)
+		{
+			image_speed = 1;
+			sprite_index = sPlayer_JumpDown;
+		}
 	}
 }
 
@@ -101,9 +127,10 @@ if (hspd != 0) {
 	image_xscale = sign(hspd);
 }
 
+
 if (press_attack && is_attacking == false) {
 	is_attacking = true;
-	sprite_index = sPlayer_Idle;
+	sprite_index = sPlayer_Attack;
 	if (is_facing_right) {
 		instance_create_layer(x + 50, y, "Player", oWhip);
 	} else {
