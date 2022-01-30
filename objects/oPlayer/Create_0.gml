@@ -12,3 +12,5 @@ invincible = false;
 is_attacking = false;
 is_facing_right = true;
 grounded = true;
+jump = false;
+audio_play_sound(Music, 1, true);

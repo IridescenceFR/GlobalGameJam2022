@@ -87,13 +87,40 @@ y = y + vspd;
 
 //Animations
 
-if (!place_meeting(x, y + 1, oMur)) {
-	sprite_index = sPlayer_Idle;
-} else {
-	if (hspd == 0) {
-		sprite_index = sPlayer_Idle;
-	} else {
-		sprite_index = Splayer_Run;
+if (place_meeting(x, y + 1, oMur))
+{
+	jump = false;
+	image_speed = 1;
+	if(!is_attacking)
+	{
+		if (hspd == 0)
+		{
+			sprite_index = sPlayer_Idle;
+		}
+		else
+		{
+			sprite_index = sPlayer_Run;
+			if(!audio_is_playing(FootStep))
+			{
+				audio_play_sound(FootStep,2,0);
+			}
+		}
+	}
+}
+else
+{
+	if(!jump)
+	{
+		jump = true;
+		sprite_index = sPlayer_JumpUp;
+	}
+	else
+	{
+		if(sign(vspd) == 1)
+		{
+			image_speed = 1;
+			sprite_index = sPlayer_JumpDown;
+		}
 	}
 }
 
@@ -101,13 +128,15 @@ if (hspd != 0) {
 	image_xscale = sign(hspd);
 }
 
+
 if (press_attack && is_attacking == false) {
 	is_attacking = true;
-	sprite_index = sPlayer_Idle;
+	sprite_index = sPlayer_Attack;
+	audio_play_sound(Sword, 3, 0)
 	if (is_facing_right) {
-		instance_create_layer(x + 50, y, "Player", oWhip);
+		instance_create_layer(x + 80, y, "Player", oWhip);
 	} else {
-		instance_create_layer(x - 50, y, "Player", oWhip);
+		instance_create_layer(x - 80, y, "Player", oWhip);
 	}
 	alarm[1] = 30;
 }
