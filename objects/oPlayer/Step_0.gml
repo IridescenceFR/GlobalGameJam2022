@@ -3,6 +3,7 @@
 press_right = keyboard_check(vk_right);
 press_left = keyboard_check(vk_left);
 press_down = keyboard_check(vk_down);
+press_up = keyboard_check(vk_up);
 press_jump = keyboard_check(vk_space);
 press_attack = keyboard_check(ord("A"));
 
@@ -11,6 +12,8 @@ press_attack = keyboard_check(ord("A"));
 var move = press_right - press_left;
 hspd = move * walkspd;
 vspd = vspd + grav;
+
+
 
 if (move > 0) {
 	is_facing_right = true;
