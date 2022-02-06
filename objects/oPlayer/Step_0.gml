@@ -13,6 +13,8 @@ var move = press_right - press_left;
 hspd = move * walkspd;
 vspd += grav + antigrav;
 
+// LADDER
+
 if(place_meeting(x,y, oLadder))
 {
 	if (oAlly.hide == false) {
@@ -37,6 +39,8 @@ else
 {
 	antigrav = 0;
 }
+
+//.........................................
 
 if (move > 0) {
 	is_facing_right = true;

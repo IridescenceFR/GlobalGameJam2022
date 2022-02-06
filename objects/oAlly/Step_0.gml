@@ -3,8 +3,6 @@
 // Il y as 2 comportement pour l'allié:
 // S'il est très stressé il cherche à se cacher dans une cachette.
 // S'il est peu stressé il suis le joueur.
-if(instance_exists(oHaloTest))
-
 
 // Gestion du stress
 
@@ -24,30 +22,64 @@ else
 	}
 }
 
-if(hide)
+if(cur_sec != current_second)
 {
-	stress -= 0.5;
-	//TEST
-	if(instance_exists(oHaloTest))
+	if(hide)
 	{
-		oHaloTest.scale = 300;
-	}
-}
-else
-{
-	if (instance_nearest(x, y, oEnemy) != noone)
-	{
+		stress -= 10;
+		//TEST
 		if(instance_exists(oHaloTest))
 		{
 			oHaloTest.scale = 300;
 		}
-		if (distance_to_object(oEnemy) < 300)
+		//FIN TEST
+	}
+	else
+	{
+		if (instance_nearest(x, y, oEnemy) != noone)
 		{
-			stress += 5;
+			//TEST
+			if(instance_exists(oHaloTest))
+			{
+				oHaloTest.scale = 300;
+			}
+			//FIN TEST
+			if (distance_to_object(oEnemy) < 300)
+			{
+				stress += 10;
+			}
+			else
+			{
+				if (distance_to_object(oEnemy) < 400)
+				{
+					stress += 8;
+				}
+				else
+				{
+					if (distance_to_object(oEnemy) < 500)
+					{
+						stress += 6;
+					}
+					else
+					{
+						if (distance_to_object(oEnemy) < 600)
+						{
+							stress += 4;
+						}
+						else
+						{
+							if (distance_to_object(oEnemy) < 700)
+							{
+								stress += 2;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
-
+cur_sec = current_second;
 
 // Action de l'allié en fonction de son stress
 
