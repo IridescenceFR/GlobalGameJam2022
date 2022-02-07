@@ -27,23 +27,11 @@ if(cur_sec != current_second)
 	if(hide)
 	{
 		stress -= 10;
-		//TEST
-		if(instance_exists(oHaloTest))
-		{
-			oHaloTest.scale = 300;
-		}
-		//FIN TEST
 	}
 	else
 	{
 		if (instance_nearest(x, y, oEnemy) != noone)
 		{
-			//TEST
-			if(instance_exists(oHaloTest))
-			{
-				oHaloTest.scale = 300;
-			}
-			//FIN TEST
 			if (distance_to_object(oEnemy) < 300)
 			{
 				stress += 10;

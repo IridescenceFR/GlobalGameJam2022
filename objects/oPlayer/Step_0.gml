@@ -158,7 +158,7 @@ if (hspd != 0) {
 if (press_attack && is_attacking == false) {
 	is_attacking = true;
 	sprite_index = sPlayer_Attack;
-	audio_play_sound(Sword, 3, 0)
+	audio_play_sound(Sword, 0, 0)
 	if (is_facing_right) {
 		instance_create_layer(x + 80, y, "Player", oWhip);
 	} else {
@@ -169,3 +169,7 @@ if (press_attack && is_attacking == false) {
 
 
 
+// Fermeture du jeu
+
+if(keyboard_check_pressed(vk_escape))
+	game_end();

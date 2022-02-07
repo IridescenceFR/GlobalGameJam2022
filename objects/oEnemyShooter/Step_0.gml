@@ -12,7 +12,7 @@ if (sign(oPlayer.x - x)) {
 
 if (is_firing == false) {
 	is_firing = true;
-	sprite_index = sEnemyShooter;
+	audio_play_sound(SnakeTSS, 0, 0)
 	instance_create_layer(x, y, "Enemy", oProjectile);
 	alarm[0] = 90;
 }

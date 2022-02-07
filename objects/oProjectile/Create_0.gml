@@ -1,6 +1,12 @@
-
 if (instance_exists(oAlly) && oAlly.hide == false) {
-	move_towards_point(oAlly.x, oAlly.y, 3);
+	ex = instance_nearest(x, y, oAlly).x;
+	ey = instance_nearest(x, y, oAlly).y;
 } else {
-	move_towards_point(oPlayer.x, oPlayer.y, 3);
+	ex = instance_nearest(x, y, oPlayer).x;
+	ey = instance_nearest(x, y, oPlayer).y;
 }
+
+direction = point_direction(x, y, ex, ey);
+
+image_angle = direction + 180;
+move_towards_point(ex, ey, 5);
